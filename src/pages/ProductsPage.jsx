@@ -7,10 +7,8 @@ import StatCard from "../components/common/StatCard";
 import SalesTrendCharts from "../components/product/SalesTrendCharts";
 import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
 import ProductsTable from "../components/product/ProductsTable";
-import { useTitle } from "../hook/UseTitle";
 
 function ProductsPage() {
-  useTitle("Products Page")
   return (
     <div className="flex-1 overflow-auto relative z-10" >
      <Header title="Products"/>

@@ -6,7 +6,6 @@ import StatCard from "../components/common/StatCard";
 import DailyOrders from "../components/orders/DailyOrders";
 import OrderDistribution from "../components/orders/OrderDistribution";
 import OrdersTable from "../components/orders/OrdersTable";
-import { useTitle } from "../hook/UseTitle";
 
 const orderStats = {
   totalOrders: "1,234",
@@ -15,8 +14,6 @@ const orderStats = {
   totalRevenue: "$98,765",
 };
 function OrdersPage() {
-  useTitle("Orders Page");
-
   return (
     <div className="flex-1 overflow-auto relative z-10">
       <Header title="Orders" />

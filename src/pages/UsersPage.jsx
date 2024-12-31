@@ -7,12 +7,8 @@ import UserTable from "../components/users/UserTable";
 import UserDemographicsChart from "../components/users/UserDemographicsChart";
 import UserActivityHeatmap from "../components/users/UserActivityHeatmap";
 import UserGrowthChart from "../components/users/UserGrowthChart";
-import { useTitle } from "../hook/UseTitle";
 
 function UsersPage() {
-
-  useTitle("Users Page");
-
   const userStats = {
     totalUsers: 152845,
     newUsersToday: 243,
