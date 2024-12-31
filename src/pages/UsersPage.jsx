@@ -10,13 +10,17 @@ import UserGrowthChart from "../components/users/UserGrowthChart";
 import { useTitle } from "../hook/UseTitle";
 
 function UsersPage() {
-  useTitle("Users Page");
+  
+  useTitle("Users Page")
+
   const userStats = {
     totalUsers: 152845,
     newUsersToday: 243,
     activeUsers: 98520,
     churnRate: "2.4%",
   };
+
+
   return (
     <div className="flex-1 overflow-auto relative z-10">
       <Header title="Users" />
