@@ -10,8 +10,8 @@ import UserGrowthChart from "../components/users/UserGrowthChart";
 import { useTitle } from "../hook/UseTitle";
 
 function UsersPage() {
-  
-  useTitle("Users Page")
+
+  useTitle("Users Page");
 
   const userStats = {
     totalUsers: 152845,
