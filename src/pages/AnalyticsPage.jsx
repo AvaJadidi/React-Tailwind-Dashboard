@@ -1,4 +1,4 @@
-import OverviewCards from "../components/analytics/OverViewCards";
+import OverviewCards from "../src/components/analytics/OverViewCards";
 import RevenueChart from "../components/analytics/RevenueChart";
 import ChannelPerformance from "../components/analytics/ChannelPerformance";
 import ProductPerformance from "../components/analytics/ProductPerformance";
