@@ -6,6 +6,7 @@ import StatCard from "../components/common/StatCard";
 import SalesOverviewChart from "../components/sales/SalesOverviewChart";
 import SalesByCategoryChart from "../components/sales/SalesByCategoryChart";
 import DailySalesTrend from "../components/sales/DailySalesTrend";
+import { useTitle } from "../hook/useTitle";
 
 const salesStats = {
   totalRevenue: "$1,234,567",
@@ -15,6 +16,7 @@ const salesStats = {
 };
 
 function SalesPage() {
+  useTitle("SalesPage")
   return (
     <div className="flex-1 overflow-auto relative z-10">
       <Header title="Sales Dashboard" />

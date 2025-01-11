@@ -6,10 +6,12 @@ import StatCard from "../components/common/StatCard";
 import SalesOverviewCharts from "../components/overview/SalesOverviewCharts";
 import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
 import SalesChannelChart from "../components/overview/SalesChannelChart";
+import { useTitle } from "../hook/useTitle";
 
 
 
 function OverviewPage() {
+  useTitle("OverviewPage");
   return (
     <div className="flex-1 overflow-auto relative z-10" >
      <Header title="Overview"/>
