@@ -64,8 +64,8 @@ function ProductsTable() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
     >
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-xl font-semibold text-gray-100">Product List</h2>
+      <div className="flex justify-between flex-col sm:flex-row items-center mb-6 text-left">
+        <h2 className="text-xl font-semibold text-gray-100 mb-4 md:mb-0 ">Product List</h2>
         <div className="relative ">
           <input
             type="text"

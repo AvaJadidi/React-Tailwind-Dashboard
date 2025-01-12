@@ -13,7 +13,7 @@ const SIDEBAR_ITEMS = [
   { name: "Settings", icon: Settings, color: "#6EE7B7", href: "/settings" },
 ];
 function Sidebar() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
     <motion.div
